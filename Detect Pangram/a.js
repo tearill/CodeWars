@@ -5,7 +5,7 @@
 // Return True if it is, False if not. 
 // Ignore numbers and punctuation.
 
-function isPangram(string) {
+function isPangram(string) { 
     // 过滤掉非字母符号
     // 过滤掉重复的字母
     // const set = new Set(string.toLowerCase().match(/[a-z]/g));
