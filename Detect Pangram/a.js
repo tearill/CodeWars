@@ -8,12 +8,11 @@
 function isPangram(string) { 
     // 过滤掉非字母符号
     // 过滤掉重复的字母
-    // const set = new Set(string.toLowerCase().match(/[a-z]/g));
-    // console.log(set.size);
+    const set = new Set(string.toLowerCase().match(/[a-z]/g));
+    console.log(set.size);
     
     // 如果最后返回元素的个数恰好是26个，就说明字符串中包含全部26个英文字母
-    // return set.size == 26 ? true : false;
-    return (string.match(/([a-z])(?!.*\1)/ig) || []).length === 26;
+    return set.size == 26 ? true : false;
 }
 
 console.log(isPangram('The quick brown fox jumps over the lazy dog.'));
