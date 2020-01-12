@@ -15,7 +15,7 @@
 // error_printer(s) => "8/22"
 function printerError(s) {
     // your code
-    let len = s.length;
+    let len = s.length; 
     let count = (s.match(/[abcdefghijklm]/ig)||[]).length;
     return `${len-count}/${len}`;
 }

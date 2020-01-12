@@ -18,4 +18,4 @@ error_printer(s) => "0/14"
 s="aaaxbbbbyyhwawiwjjjwwm"
 error_printer(s) => "8/22"
 
-- 
+- 使用正则表达式匹配a-m字段的长度
