@@ -5,3 +5,4 @@ function reverseWords(str) {
 
 console.log(reverseWords("This is an example!"));
 console.log(reverseWords("double  spaces"));
+console.log(reverseWords('triple   spaces'));
