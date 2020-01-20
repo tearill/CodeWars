@@ -1,9 +1,0 @@
-function minMax(arr){
-    // return [Math.min(...arr), Math.max(...arr)];
-    return [Math.min.apply(Math, arr), Math.max.apply(Math, arr)];
-}
-
-console.log(minMax([1,2,3,4,5]));
-console.log(minMax([2334454,5]));
-console.log(minMax([1]));
-console.log(minMax([0.7537135662706942, 0.7537135662706942]));
